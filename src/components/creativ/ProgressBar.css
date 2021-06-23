@@ -1,0 +1,33 @@
+
+.creative_img img{
+    height: 625px;
+    width: 780px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.data{
+    height: 635px;
+    width: 748px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.data1{
+    padding-top: 19px;
+    font-size: 20px;
+}
+
+.Bars{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Bars p{
+    font-size: 20px;
+}
+

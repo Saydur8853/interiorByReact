@@ -1,0 +1,61 @@
+.common{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 50px;
+    
+}
+
+.about {
+    width: 100%;
+    background: #f5fbff;
+    padding: 100px 0;
+  }
+  
+.head {
+    margin-left: 160px;
+  }
+.mainHeader {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 80px;
+    color: black;
+  }
+
+  .about__info {
+    color: black;
+    margin: 150px 0px 0px 150px;
+    justify-content: right;
+    width: 475px;
+    height: 280px;
+  }
+  .about__info h1 {
+    margin-bottom: 30px;
+  }
+  .about__info-p1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+.about__img img {
+    width: 635px;
+    height: 451px;
+  }
+
+
+.info__contacts button{
+    height: 80px;
+    width: 220px;
+    border: none;
+    background-color:#062941;
+    color:blanchedalmond;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info__contacts:hover button {
+    background-color:#eef0f1;
+    border-style: solid ;
+    border-color: #062941;
+    border-width: 1px;
+    color: #062941;
+}
