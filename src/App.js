@@ -5,6 +5,7 @@ import "./App.css";
 import "./components/navbar/Nav.css"
 import "./components/banner/Banner.css"
 import "./components/plancard/Plancard.css"
+import "./components/Testimonial_area/Testimonial_area.css"
 
 /////// COMPONENTS IMPORT HERE//////
 import Banner from "./components/banner/Banner";
@@ -15,7 +16,8 @@ import Prices from "./components/Prices";
 import Contact from "./components/Contact";
 import Plancard from "./components/plancard/Plancard";
 import ProgressBar from "./components/creativ/ProgressBar"
-// import Carousel from "./components/Carousel/CarouselContainer"
+import Testimonials  from "./components/Testimonial_area/Testimonial_area"
+import Instagram from './components/instagram_area/Instagram'
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -43,8 +45,16 @@ function App() {
       
       {/* <Services /> */}
       <About />
+      
       <ProgressBar/>
+      
       {/* <Carousel/> */}
+
+      <div className= "Testimonials_Container">
+        <Testimonials />
+      </div>
+
+      <Instagram/>
 
       
       

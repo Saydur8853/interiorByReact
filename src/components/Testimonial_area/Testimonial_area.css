@@ -1,0 +1,111 @@
+.Testimonials_Container{
+	background-image: url("../image/alex-antoniadis-sYWV9YB2Mqw-unsplash.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.myCarousel {
+	
+	margin-top: -6%;
+	width: 54%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 6%;
+	padding-bottom: 18%;
+	padding-left: 5%;
+	padding-right: 5%;
+	
+	height: 200px;
+  }
+
+.carousel-root {
+	width: 64% !important;
+	margin: auto !important;
+	margin-top: 3% !important;
+
+  }
+  
+
+  .carousel .slide img {
+	width: 80px !important;
+	border-radius: 50%;
+	margin-bottom: 20px;
+  }
+  
+  .carousel .control-dots {
+	padding-left: 5px !important;
+	outline: 0;
+	top: 88% !important;
+  }
+  
+  .myCarousel h3 {
+	color: black;
+	font-weight: 100;
+	letter-spacing: 0.2px;
+	margin-bottom: 4px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 17px;
+  }
+  
+  .myCarousel h4 {
+	text-transform: uppercase;
+	margin-top: 0;
+	padding-top: 0;
+	font-weight: 500;
+	color: black;
+	font-size: 14px;
+  }
+  
+  .myCarousel p {
+	font-weight: 100 !important;
+	line-height: 29px !important;
+	color: white;
+	font-size: 15px;
+	font-family: sans-serif;
+	max-height: 67px;
+  }
+  
+  .myCarousel p:before {
+	content: "“";
+	color: #aaa;
+	font-size: 26px;
+	font-family: monospace;
+	font-weight: 100;
+  }
+  
+  .myCarousel p:after {
+	content: "”";
+	color: #aaa;
+	font-size: 26px;
+	font-family: monospace;
+	font-weight: 100;
+	line-height: 0;
+  }
+  
+  .carousel .control-dots .dot {
+	box-shadow: none !important;
+	background: white !important;
+
+	
+  }
+  @media only screen and (max-width: 934px) {
+	.carousel-root {
+	  outline: 0;
+	  width: 93% !important;
+	  margin: auto !important;
+	}
+  
+	.carousel.carousel-slider .control-arrow {
+	  display: none !important;
+	}
+  
+	.carousel .slide img {
+	  width: 24% !important;
+	  border-radius: 50%;
+	}
+  }
+
+  

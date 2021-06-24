@@ -4,7 +4,6 @@ import {
   FaTwitter,
   FaPinterest,
   FaInstagram,
-  FaPlay,
 } from "react-icons/fa";
 const Contact = () => {
   return (

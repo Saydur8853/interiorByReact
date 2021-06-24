@@ -1,0 +1,21 @@
+.insta{
+    display: flex;
+}
+
+.section_title h3{
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.insta__img img{
+        /* height: 800px; */
+        /* width: 33.5%; */
+        /* width: 100%; */
+        position: relative;
+        object-fit: cover;
+    
+}
