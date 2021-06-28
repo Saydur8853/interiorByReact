@@ -25,8 +25,8 @@ const Instagram = () => {
   ]);
   
   return (
-    <div className="insta">
-        <div className="container">
+    <div className=" row insta">
+        <div className="">
       <div className="row col-xl-12">
           <div className="section_title text-center mb-70">
           <h3>{header.subHeader}</h3>
@@ -34,9 +34,11 @@ const Instagram = () => {
         </div>
         
        {state.map((Instagram) => (
-      <div className="row col-md-4" key={Instagram.id}>
-            <div className="insta__img">
+      <div className="" key={Instagram.id}>
+        <div className="container">
+            <div className="column insta__img">
               <img src= {Instagram.img} alt="work image here" />
+            </div>
             </div>
       </div>
       ))}

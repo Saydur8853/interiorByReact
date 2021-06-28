@@ -12,7 +12,7 @@ import Banner from "./components/banner/Banner";
 import Nav from "./components/navbar/Nav";
 import Services from "./components/Services";
 import About from "./components/ourWorks/works";
-import Prices from "./components/Prices";
+import QueryArea from "./components/query_area/Query_area";
 import Contact from "./components/Contact";
 import Plancard from "./components/plancard/Plancard";
 import ProgressBar from "./components/creativ/ProgressBar"
@@ -58,7 +58,7 @@ function App() {
 
       
       
-      <Prices />
+      <QueryArea/>
       <Contact />
       
 

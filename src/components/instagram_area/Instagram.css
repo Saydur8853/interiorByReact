@@ -1,21 +1,27 @@
-.insta{
-    display: flex;
-}
-
 .section_title h3{
     font-size: 50px;
     line-height: 60px;
     text-align: center;
     font-weight: 500;
     margin-top: 150px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .insta__img img{
-        /* height: 800px; */
-        /* width: 33.5%; */
-        /* width: 100%; */
-        position: relative;
-        object-fit: cover;
-    
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin-bottom: 40px;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

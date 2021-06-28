@@ -126,45 +126,7 @@ body {
   color: #dfdfdf;
 }
 
-/* Prices */
-.prices {
-  width: 100%;
-  padding: 100px 0;
-  background: #1f2235;
-}
-.price {
-  background: #23263a;
-  padding: 25px;
-  border-radius: 8px;
-  margin: 35px 20px;
-  color: #fff;
-  text-align: center;
-}
-.priceHeading {
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 15px;
-}
-.price__rs {
-  font-size: 70px;
-  font-weight: 200;
-  margin-bottom: 15px;
-}
-.price__rs span {
-  font-size: 25px;
-}
-.price ul {
-  list-style-type: none;
-}
-.price ul li {
-  margin: 5px 0;
-  border-bottom: 1px solid #3c3c3c;
-  font-size: 14px;
-  padding: 15px 0;
-}
-.price__btn {
-  margin-top: 40px;
-}
+
 .contact {
   padding: 100px 0;
   background: #23263a;
